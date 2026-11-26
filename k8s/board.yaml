@@ -58,7 +58,7 @@ spec:
         kubernetes.io/hostname: myserver02
       containers:
         - name: backend
-          image: guswnsj0112/cloud-board-backend:v1
+          image: guswnsj0112/cloud-board-backend:32de85c189978bc9ea7d203a44ccab6deeafd147
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
@@ -102,7 +102,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: guswnsj0112/cloud-board-frontend:v1
+          image: guswnsj0112/cloud-board-frontend:32de85c189978bc9ea7d203a44ccab6deeafd147
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80
